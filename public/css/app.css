@@ -1,0 +1,7 @@
+.img-gallery .img-element:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.img-element {
+    padding: 20px;
+}

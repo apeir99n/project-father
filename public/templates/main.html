@@ -1,0 +1,5 @@
+<div class="img-gallery">
+    <div class="span3 text-center img-element" style="height: 200px" ng-repeat="user in users">
+        <img style="height: 100%" ng-src="{{user.photo}}" alt="{{user.name}}" ng-click="showDetails(user.id)"/>
+    </div>
+</div>

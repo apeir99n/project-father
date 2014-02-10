@@ -1,0 +1,10 @@
+[
+    {"id": 1, "name": "user-1", "photo": "/img/photos/user-1.jpg", "child": 2},
+    {"id": 2, "name": "user-2", "photo": "/img/photos/user-2.jpg", "child": 3, "parent": 1},
+    {"id": 3, "name": "user-3", "photo": "/img/photos/user-3.jpg", "parent": 2},
+    {"id": 4, "name": "user-4", "photo": "/img/photos/user-4.jpg"},
+    {"id": 5, "name": "user-5", "photo": "/img/photos/user-5.jpg"},
+    {"id": 6, "name": "user-6", "photo": "/img/photos/user-6.jpg"},
+    {"id": 7, "name": "user-7", "photo": "/img/photos/user-7.jpg"},
+    {"id": 8, "name": "user-8", "photo": "/img/photos/user-8.jpg"}
+]

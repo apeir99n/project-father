@@ -1,0 +1,11 @@
+<div class="row" ng-repeat="du in dUsers" ng-click="toggleStep()">
+    <div class="span6 text-center" style="height: 200px">
+        <img style="height: 100%" ng-src="{{du.user.photo}}" alt="{{du.user.name}}"/>
+    </div>
+    <div class="span6">
+        <p>
+            <div><strong>{{du.details.qs[0].q}}</strong></div>
+            <div><em>{{du.details.qs[0].a}}</em></div>
+        </p>
+    </div>
+</div>
